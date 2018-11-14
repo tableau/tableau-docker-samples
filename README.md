@@ -5,8 +5,8 @@
 This repository contains samples of docker files for Tableau Products. For instructions on running the specific samples, see the Readme files in the corresponding directories.
 
 At the moment the repository has the samples for:
-- [Tableau Server Client (Python)](./samples/serverapidocker/README.md)
-- [Tabcmd](./samples/tabcmddocker/README.md)
+- [Tableau Server Client (Python)](./samples/server-api-client/README.md)
+- [Tabcmd](./samples/tabcmd/README.md)
 
 ## Contributing
 
