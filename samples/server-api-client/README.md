@@ -24,7 +24,7 @@ Run the following command (That will mount the folder (LOCALFOLDER) containing t
         --password <PASSWORD> \
         --logging-level error
 ```
-> Notice that *TARGETPROJECT* is a name of the project, not a full name and that due to the existing limitation of client package we are using it is not possible to correctly target the project if its name is not unique accross all top level and nested projects. So if you have the following projects *Project1*, *Project2*/*Project1*, *Project1*/*Project3* then only *Project2* and *Project3* (*Project1*/*Project3*) could be used as a target project name. But when you specify *Project1* as a target it will be resolved either as *Project1* or as *Project2*/*Project1*.
+> Notice that *TARGETPROJECT* is a name of the project, not a full name and that due to the existing limitation of client package we are using it is not possible to correctly target the project if its name is not unique accross all top level and nested projects. So if you have the following projects *Project1*, *Project2*/*Project1*, *Project1*/*Project3* then only *Project2* and *Project3* (*Project1*/*Project3*) could be used as a target project name. But when you specify *Project1* as a target it could be resolved either as *Project1* or as *Project2*/*Project1*.
 
 You can target a specific site name using `--siteid` parameter.
 
