@@ -1,4 +1,4 @@
-# Samples of Docker Images for Tableau Products
+# Samples of Dockers for Tableau Products
 
 [![Tableau Supported](https://img.shields.io/badge/Support%20Level-As%20Is-53bd92.svg)](https://www.tableau.com/support-levels-it-and-developer-tools)
 
