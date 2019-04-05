@@ -51,6 +51,7 @@ def main():
                 print("Datasource published.JOB ID: {0}".format(new_job.id))
             else:
                 new_ds = server.datasources.publish(new_ds, args.filepath, server.PublishMode.Overwrite, as_job=args.as_job)
+
                 print("Datasource published. ID: {0}".format(new_ds.id))
         else:
             error = "The default project could not be found."
